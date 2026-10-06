@@ -1,0 +1,286 @@
+            section.home {
+                min-height: 80vh;
+            }
+
+            section.about {
+                min-height: 80vh;
+            }
+
+            section.food-menu {
+                min-height: 110vh;
+            }
+
+            section.direction {
+                min-height: 80vh;
+            }
+
+            body {
+                max-width: 100%;
+            }
+
+            header {
+                display: flex;
+                background-color: black;
+                padding-top: 15px;
+                padding-left: 60px;
+                gap: 23%;
+                align-items: center;
+                position: sticky;
+                top: 0;
+            }
+
+            header h1 {
+                color: white;
+            }
+
+            header ul {
+                display: flex;
+                text-decoration: none;
+                gap: 30px;
+            }
+
+            header ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+            }
+
+            header .btn {
+                color: orange;
+                background-color: transparent;
+                border-style: groove;
+                border-color: orange;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+            .home {
+                background-image: url('4607463992343845952.jpg');
+                background-size: cover;
+                text-align: center;
+                padding-top: 20px;
+            }
+
+            .home h1 {
+                text-align: center;
+                color: white;
+                font-size: 70px;
+            }
+
+            .home p {
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+
+            .home a {
+                color: orange;
+                background-color: transparent;
+                border-color: orange;
+                border-style: groove;
+                padding: 20px 40px;
+                text-decoration: none;
+            }
+
+            .home .btn {
+                display: block;
+                width: fit-content;
+                margin: 0 auto;
+            }
+
+            .about {
+                background-color: black;
+                padding-top: 20px;
+
+            }
+
+            .about .text {
+                padding: 60px;
+            }
+
+            .about .text h2 {
+                color: orange;
+                font-size: 40px;
+            }
+
+            .about .text p {
+                color: white;
+                font-size: 20px;
+            }
+
+            .about .text ul {
+                color: orange;
+                display: flex;
+                gap: 40px;
+            }
+
+            .about .text li {
+                font-size: 20px;
+            }
+
+            .about .block {
+                float: right;
+                display: block;
+                background-color: rgb(10, 10, 10, 0.9);
+                color: white;
+                width: 30%;
+                min-height: 30vh;
+                padding: 50px;
+                align-items: center;
+                text-align: center;
+                margin-top: 5%;
+                margin-right: 5%;
+                border: 1px;
+                border-style: groove;
+                border-color: orange;
+            }
+
+            .about .block:hover {
+                border: 2px;
+                border-style: groove;
+                border-color: orange;
+                background-color: rgb(10, 10, 10, 0.9);
+            }
+
+            .about .block h2 {
+                font-size: 30px;
+            }
+
+            .about .block p {
+                font-size: 20px;
+            }
+
+            .food-menu {
+                background-color: rgb(10, 10, 10, 0.9);
+                padding: 60px;
+                align-items: center;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+
+            .food-menu h2 {
+                color: orange;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .food-menu .menu-blocks {
+                display: flex;
+            }
+            .menu-blocks .first-block {
+                background-image: url('Nigerian Suya with Yaji Pepper.jpg');
+                background-size: cover;
+            }
+
+            .menu-blocks .second-block {
+                background-image: url('Ewa Agoyin.jpg');
+                background-size: cover;
+            }
+
+            .menu-blocks .third-block {
+                background-image: url('National Cocktail Day means the drinks are dressed….jpg');
+                background-size: cover;
+            }
+
+            .food-menu .menu-blocks div {
+                background-color: transparent;
+                border: 1px;
+                border-style: groove;
+                border-color: orange;
+                padding: 40px;
+                margin: 20px;
+                align-items: center;
+                text-align: center;
+                width: 30%;
+            }
+
+            .food-menu .menu-blocks div:hover {
+                border: 3px;
+                border-style: groove;
+                border-color: orange;
+                background-color: rgb(10, 10, 10, 0.9);
+            }
+
+            .food-menu .menu-blocks div h3 {
+                color: white;
+                font-size: 20px;
+            }
+
+            .food-menu .menu-blocks div p {
+                color: white;
+                font-size: 18px;
+            }
+
+            .food-menu .btn {
+                display: block;
+                width: fit-content;
+                margin: 0 auto;
+                color: orange;
+                background-color: transparent;
+                border-color: orange;
+                border-style: groove;
+                padding: 20px 40px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+
+            .direction {
+                background-color: black;
+                padding: 60px;
+                align-items: center;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                padding-top: 60px;
+                padding-bottom: 10px;
+            }
+
+            .direction h2 {
+                color: white;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .direction .direction-blocks {
+                display: flex;
+            }
+
+            .direction .direction-blocks div:hover {
+                border: 2px;
+                border-style: groove;
+                border-color: orange;
+                background-color: rgb(10, 10, 10, 0.9);
+            }
+
+            .direction .direction-blocks h3 {
+                color: white;
+                font-size: 20px;
+            }
+
+            .direction .direction-blocks p {
+                color: white;
+                font-size: 18px;
+            }
+
+            .direction .direction-blocks div {
+                background-color: rgb(10, 10, 10, 0.9);
+                padding: 40px;
+                margin: 20px;
+                align-items: center;
+                text-align: center;
+                width: 30%;
+            }
+
+            footer {
+                min-height: 20vh;
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            footer .logos a {
+                padding: 10px;
+            }
